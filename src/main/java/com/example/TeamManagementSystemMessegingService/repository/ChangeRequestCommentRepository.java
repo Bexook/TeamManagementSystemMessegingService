@@ -1,12 +1,9 @@
 package com.example.TeamManagementSystemMessegingService.repository;
 
-import com.example.TeamManagementSystemMessegingService.domain.entity.MessageEntity;
+import com.tms.dao.tmsdao.changeRequestDomain.entity.ChangeRequestCommentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface MessageRepository extends JpaRepository<MessageEntity, Long> {
-
-
-
+public interface ChangeRequestCommentRepository extends JpaRepository<ChangeRequestCommentEntity, Long> {
 }
